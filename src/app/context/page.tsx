@@ -1,10 +1,11 @@
 'use client';
 
-import React, {useContext} from 'react';
+import React, {useContext, useEffect} from 'react';
 import Provider from "@/context/CounterContext";
 import useCounterContext from "@/hooks/use-counter-context";
 
 const Page = () => {
+
     return (
         <Provider>
             <Counter/>
